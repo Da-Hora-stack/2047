@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"import\\('./src/game/missions/RoadController.js'\\).then\\(m => console.log\\('OK:', Object.keys\\(m\\)\\)\\).catch\\(e => console.error\\('FAIL:', e.message\\)\\)\")",
+      "Bash(rm -rf .next)",
+      "Bash(npx kill-port *)",
+      "Bash(npx next *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s \"http://localhost:3000/_next/static/chunks/src_components_game_GameView_0fnqhgse8qgyp.js\")",
+      "Bash(curl -s \"http://localhost:3000\")",
+      "Bash(curl -s \"http://localhost:3000/_next/static/chunks/src_11bd8lp2f7opl._.js\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://api.polyhaven.com/info/road_damaged_2\")"
+    ]
+  }
+}

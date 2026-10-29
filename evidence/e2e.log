@@ -1,0 +1,26 @@
+
+> 2047-rede-aurora@0.1.0 test:e2e
+> playwright test
+
+[WebServer] (node:4710) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:4723) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:4735) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:4754) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ACEITE {"speedKmh":43.145478998964315,"fuelBefore":140,"fuelAfter":139.90681952007,"averageFps":2.9900299254685163,"drawCalls":92,"triangles":62192,"consoleErrors":[]}
+  ✓  1 tests/e2e/game.spec.js:4:1 › aceite: mundo real, W por 8 s, diesel, console e orçamento (17.4s)
+  ✓  2 tests/e2e/game.spec.js:18:1 › câmeras, motor, pausa, configurações e API (21.2s)
+  ✓  3 tests/e2e/game.spec.js:30:1 › setores se renovam na viagem e o objetivo responde à posição (10.0s)
+
+  3 passed (51.0s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

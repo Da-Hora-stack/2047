@@ -1,0 +1,5 @@
+
+> 2047-rede-aurora@0.1.0 db:migrate
+> node scripts/migrate.js
+
+Migração verificada: schema 1

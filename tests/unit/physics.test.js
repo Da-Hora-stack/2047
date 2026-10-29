@@ -1,0 +1,12 @@
+import { beforeAll, describe, it, expect } from 'vitest';
+import RAPIER from '@dimforge/rapier3d-compat';
+import { VehiclePhysics } from '../../src/game/physics/VehiclePhysics.js';
+beforeAll(async()=>{await RAPIER.init();});
+function setup(grade=0){const w=new RAPIER.World({x:0,y:-9.81,z:0});w.createCollider(RAPIER.ColliderDesc.cuboid(500,.5,4000).setTranslation(0,-.5,0).setRotation({x:Math.sin(grade/2),y:0,z:0,w:Math.cos(grade/2)}));const points=[];for(const z of [-2.5,1.45,2.9])for(const x of [-1.2,1.2])points.push({x,y:-.1,z});const v=new VehiclePhysics(w,points);const s={engineOn:true,speed:0};for(let i=0;i<120;i++){w.step();v.update({throttle:0,steer:0,handbrake:true},s,1/60);}return {w,v,s};}
+describe('Titã com Rapier real',()=>{
+  it('freio de estacionamento imobiliza em baixa velocidade numa inclinação',()=>{const {w,v,s}=setup(.015);for(let i=0;i<120;i++){v.update({throttle:1,steer:0,handbrake:false},s,1/60);w.step();}for(let i=0;i<300;i++){v.update({throttle:0,steer:0,handbrake:true},s,1/60);w.step();}expect(Math.abs(v.signedSpeed())).toBeLessThan(.6);w.free();});
+  it('acelera para a frente, sustenta seis rodas e freia',()=>{const {w,v,s}=setup();for(let i=0;i<480;i++){v.update({throttle:1,steer:0,handbrake:false},s,1/60);w.step();}const speed=v.signedSpeed()*3.6;console.log(`Rapier: 8 s = ${speed.toFixed(2)} km/h; z=${v.body.translation().z.toFixed(2)}`);expect(speed).toBeGreaterThan(40);expect(v.body.translation().z).toBeLessThan(-30);expect(v.controller.numWheels()).toBe(6);for(let i=0;i<240;i++){v.update({throttle:-1,steer:0,handbrake:false},s,1/60);w.step();}expect(Math.abs(v.signedSpeed())*3.6).toBeLessThan(15);w.free();});
+  it('engata ré e limita a velocidade',()=>{const {w,v,s}=setup();for(let i=0;i<600;i++){v.update({throttle:-1,steer:0,handbrake:false},s,1/60);w.step();}expect(v.signedSpeed()).toBeLessThan(-1);expect(v.signedSpeed()).toBeGreaterThan(-5);expect(v.body.translation().z).toBeGreaterThan(15);w.free();});
+  it('o cenário sólido impede atravessar um obstáculo',()=>{const {w,v,s}=setup();w.createCollider(RAPIER.ColliderDesc.cuboid(8,4,1).setTranslation(0,4,-20));for(let i=0;i<480;i++){v.update({throttle:1,steer:0,handbrake:false},s,1/60);w.step();}expect(v.body.translation().z).toBeGreaterThan(-20);expect(Number.isFinite(v.body.translation().y)).toBe(true);w.free();});
+  it('esterço move o Titã para a esquerda',()=>{const {w,v,s}=setup();for(let i=0;i<300;i++){v.update({throttle:.6,steer:1,handbrake:false},s,1/60);w.step();}expect(v.body.translation().x).toBeLessThan(-1);w.free();});
+});

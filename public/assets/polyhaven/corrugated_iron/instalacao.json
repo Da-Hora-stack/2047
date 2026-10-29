@@ -1,0 +1,43 @@
+{
+  "id": "corrugated_iron",
+  "resolution": "2k",
+  "category": "man made",
+  "dimensions": [
+    1120.0000047683716,
+    1120.0000047683716
+  ],
+  "maps": {
+    "diff": {
+      "file": "corrugated_iron_diff_2k.png",
+      "size": 21504313,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/corrugated_iron/corrugated_iron_diff_2k.png"
+    },
+    "nor_gl": {
+      "file": "corrugated_iron_nor_gl_2k.png",
+      "size": 22420067,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/corrugated_iron/corrugated_iron_nor_gl_2k.png"
+    },
+    "rough": {
+      "file": "corrugated_iron_rough_2k.png",
+      "size": 6833630,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/corrugated_iron/corrugated_iron_rough_2k.png"
+    },
+    "ao": {
+      "file": "corrugated_iron_ao_2k.png",
+      "size": 6125448,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/corrugated_iron/corrugated_iron_ao_2k.png"
+    },
+    "arm": {
+      "file": "corrugated_iron_arm_2k.png",
+      "size": 3340804,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/corrugated_iron/corrugated_iron_arm_2k.png"
+    },
+    "disp": {
+      "file": "corrugated_iron_disp_2k.png",
+      "size": 5296841,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/corrugated_iron/corrugated_iron_disp_2k.png"
+    }
+  },
+  "errors": [],
+  "downloadedAt": "2026-10-29T14:30:03.621Z"
+}

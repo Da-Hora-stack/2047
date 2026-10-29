@@ -1,0 +1,8 @@
+{
+  "speedKmh": 45,
+  "debugAbsent": true,
+  "configStatus": 200,
+  "consoleErrors": [],
+  "viewport": "960×540",
+  "rendering": "software / SwiftShader"
+}

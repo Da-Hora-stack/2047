@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "trucks": {},
+  "characters": {},
+  "environments": {
+    "wreck-sedan": {
+      "id": "wreck-sedan",
+      "status": "installed",
+      "rightsCleared": true,
+      "license": "CC-BY-NC-4.0",
+      "usage": "noncommercial-development",
+      "source": "https://sketchfab.com/3d-models/post-apoc-civilian-cars-4977fa3e5dec432ea4173f910c74805a",
+      "attribution": "Post-Apoc Civilian Cars by Renafox (kryik1023), CC-BY-NC-4.0. Converted, separated and textures resized.",
+      "url": "/assets/models/environments/renafox-cars/wreck-sedan.glb",
+      "dimensions": [
+        2.668196201324463,
+        1.503081202507019,
+        4.800000190734863
+      ],
+      "triangles": 1516
+    },
+    "wreck-hatchback": {
+      "id": "wreck-hatchback",
+      "status": "installed",
+      "rightsCleared": true,
+      "license": "CC-BY-NC-4.0",
+      "usage": "noncommercial-development",
+      "source": "https://sketchfab.com/3d-models/post-apoc-civilian-cars-4977fa3e5dec432ea4173f910c74805a",
+      "attribution": "Post-Apoc Civilian Cars by Renafox (kryik1023), CC-BY-NC-4.0. Converted, separated and textures resized.",
+      "url": "/assets/models/environments/renafox-cars/wreck-hatchback.glb",
+      "dimensions": [
+        2.063439130783081,
+        1.432318091392517,
+        4.5
+      ],
+      "triangles": 1382
+    },
+    "wreck-utility": {
+      "id": "wreck-utility",
+      "status": "installed",
+      "rightsCleared": true,
+      "license": "CC-BY-NC-4.0",
+      "usage": "noncommercial-development",
+      "source": "https://sketchfab.com/3d-models/post-apoc-civilian-cars-4977fa3e5dec432ea4173f910c74805a",
+      "attribution": "Post-Apoc Civilian Cars by Renafox (kryik1023), CC-BY-NC-4.0. Converted, separated and textures resized.",
+      "url": "/assets/models/environments/renafox-cars/wreck-utility.glb",
+      "dimensions": [
+        2.253274440765381,
+        1.846386194229126,
+        4.899999618530273
+      ],
+      "triangles": 1466
+    }
+  }
+}

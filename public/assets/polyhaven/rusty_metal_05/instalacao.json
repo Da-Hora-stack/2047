@@ -1,0 +1,43 @@
+{
+  "id": "rusty_metal_05",
+  "resolution": "2k",
+  "category": "metal",
+  "dimensions": [
+    1250,
+    1250
+  ],
+  "maps": {
+    "diff": {
+      "file": "rusty_metal_05_diff_2k.png",
+      "size": 21499838,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rusty_metal_05/rusty_metal_05_diff_2k.png"
+    },
+    "nor_gl": {
+      "file": "rusty_metal_05_nor_gl_2k.png",
+      "size": 21007589,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rusty_metal_05/rusty_metal_05_nor_gl_2k.png"
+    },
+    "rough": {
+      "file": "rusty_metal_05_rough_2k.png",
+      "size": 6793350,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rusty_metal_05/rusty_metal_05_rough_2k.png"
+    },
+    "ao": {
+      "file": "rusty_metal_05_ao_2k.png",
+      "size": 4734167,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rusty_metal_05/rusty_metal_05_ao_2k.png"
+    },
+    "arm": {
+      "file": "rusty_metal_05_arm_2k.png",
+      "size": 13714602,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rusty_metal_05/rusty_metal_05_arm_2k.png"
+    },
+    "disp": {
+      "file": "rusty_metal_05_disp_2k.png",
+      "size": 6071876,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rusty_metal_05/rusty_metal_05_disp_2k.png"
+    }
+  },
+  "errors": [],
+  "downloadedAt": "2026-10-29T14:29:31.722Z"
+}

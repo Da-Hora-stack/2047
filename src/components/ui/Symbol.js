@@ -1,0 +1,4 @@
+export default function Symbol({name='aurora',size=24,...props}) {
+  const paths={aurora:<><path d="M3 21 12 3l9 18M7 14h10M10 21l2-5 2 5"/><path d="M1 21h6m10 0h6"/></>,arrow:<path d="M4 12h15m-6-6 6 6-6 6"/>,pause:<path d="M8 5v14M16 5v14"/>,gear:<><circle cx="12" cy="12" r="4"/><path d="m12 2 1 3 3 1 3-1 2 3-2 3 0 2 2 3-2 3-3-1-3 1-1 3-4-1-1-3-2-2-3-1v-4l3-1 2-2 1-3Z"/></>,fuel:<><path d="M4 21V5h10v16M3 21h12M5 8h7m4-2 3 3v9a2 2 0 0 1-4 0v-5h-2"/></>,thermo:<><path d="M10 14V5a2 2 0 0 1 4 0v9a4 4 0 1 1-4 0Z"/><path d="M12 9v9m5-12h3m-3 4h2"/></>,engine:<><path d="M4 8h13l3 4v6H6l-3-3V9m5-4h6m-3 0v3M1 10v6m20-5h2v6h-3"/></>,sound:<><path d="M3 9h4l5-5v16l-5-5H3Zm12-1q5 4 0 8m3-11q8 7 0 14"/></>};
+  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>{paths[name]||paths.aurora}</svg>;
+}

@@ -1,0 +1,35 @@
+
+> 2047-rede-aurora@0.3.1 build
+> next build
+
+▲ Next.js 16.4.3 (Turbopack)
+✓ Running next.config.js took 14ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 799ms
+  Running TypeScript ...
+  Finished TypeScript in 6ms ...
+  Collecting page data using 2 workers ...
+  Generating static pages using 2 workers (0/10) ...
+  Generating static pages using 2 workers (2/10) 
+  Generating static pages using 2 workers (4/10) 
+  Generating static pages using 2 workers (7/10) 
+✓ Generating static pages using 2 workers (10/10) in 135ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/game/config
+├ ƒ /api/game/items
+├ ƒ /api/game/missions
+├ ƒ /api/saves
+├ ƒ /api/saves/[slot]
+├ ƒ /api/world/regions
+├ ○ /game
+└ ○ /settings
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

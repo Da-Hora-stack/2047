@@ -1,0 +1,368 @@
+{
+  "mode": "driving",
+  "resumeMode": "driving",
+  "overlay": null,
+  "fuel": 4,
+  "temperature": 25.90405554977761,
+  "engineOn": false,
+  "speed": 0.0024752159656909888,
+  "signedSpeed": 0.0024743790356924174,
+  "surface": "areia",
+  "camera": 2,
+  "headlights": false,
+  "arrived": false,
+  "notice": "",
+  "saving": false,
+  "massKg": 8805.740234375,
+  "cargoMassKg": 5.74,
+  "rpm": 0,
+  "gear": 0,
+  "gearLabel": "N",
+  "shifting": false,
+  "shiftCount": 0,
+  "throttle": 0,
+  "brake": 0,
+  "torqueNm": 0,
+  "enginePowerKw": 0,
+  "fuelRateLps": 0,
+  "engineBraking": false,
+  "parkingBrake": true,
+  "tractionForceN": 0,
+  "resistanceForceN": 7774.588077305097,
+  "steeringAngle": 0,
+  "longitudinalAcceleration": 0.0002347295602327434,
+  "lateralAcceleration": 0,
+  "lateralSpeed": -0.016663565669366436,
+  "storm": false,
+  "restored": false,
+  "region": "ashes",
+  "interference": 0.08,
+  "radioActive": false,
+  "x": -21.837892532348633,
+  "z": -4.035839080810547,
+  "front": false,
+  "weatherClock": 2.166666666666664,
+  "localRestored": false,
+  "powerMultiplier": 1,
+  "gripMultiplier": 1,
+  "loaded": false,
+  "inventoryMass": 2.4,
+  "suspensionCondition": 38,
+  "steeringSensitivity": 1.5,
+  "simulation": {
+    "steps": 130,
+    "lastFrameSteps": 6,
+    "droppedSeconds": 0,
+    "fixedStep": 0.016666666666666666
+  },
+  "instruments": {
+    "speed": 0.00891077747648756,
+    "rpm": 0,
+    "fuel": 4,
+    "temperature": 25.90405554977761,
+    "gear": "N",
+    "needleAngles": {
+      "speed": 2.3558448856327305,
+      "rpm": 2.356194490192345,
+      "fuel": 2.2514747350726854,
+      "temperature": 1.5423498112237835
+    }
+  },
+  "truckVisual": {
+    "steeringWheelAngle": 0,
+    "cabPitch": -5.613993822181085e-20,
+    "cabRoll": 0
+  },
+  "cameraPose": {
+    "position": [
+      -21.748431013655118,
+      4.677649933060292,
+      13.570040067833219
+    ],
+    "target": [
+      -21.590943197466913,
+      4.026670315196563,
+      -4.06520791496779
+    ],
+    "mode": 2,
+    "distance": 25,
+    "fov": 54,
+    "angle": 6.938893903907228e-17,
+    "elevation": 0.05
+  },
+  "audio": {
+    "state": "running",
+    "firingHz": 14,
+    "expectedFiringHz": 14,
+    "shiftsObserved": 0,
+    "engineGain": 0
+  },
+  "objective": null,
+  "weather": {
+    "region": "ashes",
+    "restored": false,
+    "event": "calm",
+    "front": false,
+    "interference": 0.08,
+    "fog": 1,
+    "grip": 1
+  },
+  "radioMessages": [],
+  "networkVisual": {
+    "entities": 1,
+    "rain": false,
+    "cores": {},
+    "barriers": {},
+    "floods": {},
+    "vaults": {
+      "core-1": true
+    },
+    "liaVisible": false
+  },
+  "ready": true,
+  "position": [
+    -21.83786964416504,
+    2.648878812789917,
+    -4.035860061645508
+  ],
+  "playerPosition": [
+    -3,
+    1,
+    5
+  ],
+  "speedKmh": 0.00891077747648756,
+  "fps": 9.375585974123396,
+  "averageFps": 6.585483330336369,
+  "drawCalls": 77,
+  "triangles": 28796,
+  "sectors": 9,
+  "sectorKeys": [
+    "0,0",
+    "-1,0",
+    "0,-1",
+    "0,1",
+    "1,0",
+    "-1,-1",
+    "-1,1",
+    "1,-1",
+    "1,1"
+  ],
+  "quaternion": [
+    -0.010343427769839764,
+    0.0033357623033225536,
+    -0.08844589442014694,
+    0.9960217475891113
+  ],
+  "wheelContacts": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "suspension": [
+    0.4528672695159912,
+    0.4479109048843384,
+    0.4815014600753784,
+    0.4724256992340088,
+    0.49201250076293945,
+    0.48142504692077637
+  ],
+  "input": {
+    "throttle": 0,
+    "steer": 0,
+    "handbrake": true
+  },
+  "footBoundary": false,
+  "expeditionVisual": {
+    "lootVisible": {
+      "depot": true,
+      "station": true
+    }
+  },
+  "worldVisual": {
+    "rain": false,
+    "plants": false,
+    "growth": 0,
+    "barrierOpen": false,
+    "plantCount": 220
+  },
+  "campaign": {
+    "stage": "shelter",
+    "seed": {
+      "received": false,
+      "integrity": 100
+    },
+    "components": {
+      "engine": 70,
+      "radiator": 35,
+      "tires": 64,
+      "suspension": 38,
+      "transmission": 65,
+      "tank": 55,
+      "filters": 55,
+      "frame": 70
+    },
+    "inventory": {
+      "player": {
+        "diesel": 8,
+        "water": 4,
+        "food": 3,
+        "parts": 10,
+        "scrap": 8
+      },
+      "truck": {
+        "diesel": 0,
+        "water": 0,
+        "food": 0,
+        "parts": 2,
+        "scrap": 0
+      }
+    },
+    "flags": {
+      "metSurvivor": false,
+      "renataContact": false,
+      "plannedRoute": null,
+      "chosenRoute": null,
+      "stormEncountered": false,
+      "voiceFragments": [],
+      "finalChoice": null,
+      "titanForced": false
+    },
+    "cores": {
+      "core-1": {
+        "state": "inactive",
+        "attempts": 0
+      },
+      "core-2": {
+        "state": "inactive",
+        "attempts": 0
+      },
+      "core-3": {
+        "state": "inactive",
+        "attempts": 0
+      },
+      "core-4": {
+        "state": "inactive",
+        "attempts": 0
+      },
+      "core-5": {
+        "state": "inactive",
+        "attempts": 0
+      },
+      "core-6": {
+        "state": "inactive",
+        "attempts": 0
+      },
+      "core-7": {
+        "state": "inactive",
+        "attempts": 0
+      }
+    },
+    "restoration": {
+      "ashes": false,
+      "cities": false,
+      "salt": false,
+      "glass": false,
+      "storm": false
+    },
+    "completedMissions": [],
+    "decisions": [],
+    "collected": [],
+    "rngState": 341072843,
+    "travelSeconds": 0,
+    "checkpoint": 0,
+    "expedition": {
+      "hydration": 100,
+      "satiety": 100,
+      "fatigue": 0,
+      "deprivationSeconds": 0,
+      "visited": [],
+      "looted": [],
+      "stock": {
+        "diesel": 12,
+        "water": 10,
+        "food": 8,
+        "parts": 8
+      },
+      "transactions": 0
+    },
+    "network": {
+      "clock": 2.166666666666664,
+      "cargo": null,
+      "seeds": {
+        "core-1": {
+          "obtained": false,
+          "integrity": 100
+        },
+        "core-2": {
+          "obtained": false,
+          "integrity": 100
+        },
+        "core-3": {
+          "obtained": false,
+          "integrity": 100
+        },
+        "core-4": {
+          "obtained": false,
+          "integrity": 100
+        },
+        "core-5": {
+          "obtained": false,
+          "integrity": 100
+        },
+        "core-6": {
+          "obtained": false,
+          "integrity": 100
+        },
+        "core-7": {
+          "obtained": false,
+          "integrity": 100
+        }
+      },
+      "quests": {
+        "supply": "available",
+        "pump": "available",
+        "relay": "available"
+      },
+      "looted": [],
+      "visited": [],
+      "routes": {},
+      "stocks": {
+        "lia": {
+          "diesel": 40,
+          "water": 16,
+          "food": 12,
+          "parts": 16
+        },
+        "afonso": {
+          "diesel": 40,
+          "water": 16,
+          "food": 12,
+          "parts": 16
+        },
+        "noemia": {
+          "diesel": 40,
+          "water": 16,
+          "food": 12,
+          "parts": 16
+        },
+        "joel": {
+          "diesel": 40,
+          "water": 16,
+          "food": 12,
+          "parts": 16
+        }
+      }
+    }
+  },
+  "integrity": null,
+  "chance": 1,
+  "interaction": {
+    "id": "exit",
+    "text": "Descer do caminhão"
+  },
+  "canWork": true,
+  "parked": false
+}

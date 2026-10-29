@@ -1,0 +1,16 @@
+
+> 2047-rede-aurora@0.2.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /workspace/work/2047-rede-aurora
+
+
+ Test Files  4 passed (4)
+      Tests  28 passed (28)
+   Start at  18:42:20
+   Duration  765ms (tests 62%, import 25%, transform 10%, worker 3%)
+
+    Isolate  4 workers spawned · ~85ms startup each (spawn + environment, per file)
+             at least ~255ms faster with isolate: false — reuses workers across files instead of one per file
+

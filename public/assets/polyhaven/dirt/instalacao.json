@@ -1,0 +1,43 @@
+{
+  "id": "dirt",
+  "resolution": "2k",
+  "category": "floor",
+  "dimensions": [
+    2000,
+    2000
+  ],
+  "maps": {
+    "diff": {
+      "file": "dirt_diff_2k.png",
+      "size": 22041709,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/dirt/dirt_diff_2k.png"
+    },
+    "nor_gl": {
+      "file": "dirt_nor_gl_2k.png",
+      "size": 23484882,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/dirt/dirt_nor_gl_2k.png"
+    },
+    "rough": {
+      "file": "dirt_rough_2k.png",
+      "size": 6297012,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/dirt/dirt_rough_2k.png"
+    },
+    "ao": {
+      "file": "dirt_ao_2k.png",
+      "size": 7479394,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/dirt/dirt_ao_2k.png"
+    },
+    "arm": {
+      "file": "dirt_arm_2k.png",
+      "size": 16069882,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/dirt/dirt_arm_2k.png"
+    },
+    "disp": {
+      "file": "dirt_disp_2k.png",
+      "size": 6576954,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/dirt/dirt_disp_2k.png"
+    }
+  },
+  "errors": [],
+  "downloadedAt": "2026-10-29T14:29:01.054Z"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "rust_coarse_01",
+  "resolution": "2k",
+  "category": "metal",
+  "dimensions": [
+    2199.9998092651367,
+    2200.000286102295
+  ],
+  "maps": {
+    "diff": {
+      "file": "rust_coarse_01_diff_2k.png",
+      "size": 22449923,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rust_coarse_01/rust_coarse_01_diff_2k.png"
+    },
+    "nor_gl": {
+      "file": "rust_coarse_01_nor_gl_2k.png",
+      "size": 22604890,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rust_coarse_01/rust_coarse_01_nor_gl_2k.png"
+    },
+    "rough": {
+      "file": "rust_coarse_01_rough_2k.png",
+      "size": 10136754,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rust_coarse_01/rust_coarse_01_rough_2k.png"
+    },
+    "ao": {
+      "file": "rust_coarse_01_ao_2k.png",
+      "size": 7563493,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rust_coarse_01/rust_coarse_01_ao_2k.png"
+    },
+    "arm": {
+      "file": "rust_coarse_01_arm_2k.png",
+      "size": 17783506,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rust_coarse_01/rust_coarse_01_arm_2k.png"
+    },
+    "disp": {
+      "file": "rust_coarse_01_disp_2k.png",
+      "size": 9252123,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rust_coarse_01/rust_coarse_01_disp_2k.png"
+    }
+  },
+  "errors": [],
+  "downloadedAt": "2026-10-29T14:29:51.728Z"
+}

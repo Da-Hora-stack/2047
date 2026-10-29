@@ -1,0 +1,43 @@
+{
+  "id": "road_damaged_2",
+  "resolution": "2k",
+  "category": "road",
+  "dimensions": [
+    2200.000047683716,
+    2200.000047683716
+  ],
+  "maps": {
+    "diff": {
+      "file": "road_damaged_2_diff_2k.png",
+      "size": 22654274,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/road_damaged_2/road_damaged_2_diff_2k.png"
+    },
+    "nor_gl": {
+      "file": "road_damaged_2_nor_gl_2k.png",
+      "size": 23136229,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/road_damaged_2/road_damaged_2_nor_gl_2k.png"
+    },
+    "rough": {
+      "file": "road_damaged_2_rough_2k.png",
+      "size": 7465699,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/road_damaged_2/road_damaged_2_rough_2k.png"
+    },
+    "ao": {
+      "file": "road_damaged_2_ao_2k.png",
+      "size": 7437508,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/road_damaged_2/road_damaged_2_ao_2k.png"
+    },
+    "arm": {
+      "file": "road_damaged_2_arm_2k.png",
+      "size": 17537005,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/road_damaged_2/road_damaged_2_arm_2k.png"
+    },
+    "disp": {
+      "file": "road_damaged_2_disp_2k.png",
+      "size": 6164380,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/road_damaged_2/road_damaged_2_disp_2k.png"
+    }
+  },
+  "errors": [],
+  "downloadedAt": "2026-10-29T14:28:02.973Z"
+}

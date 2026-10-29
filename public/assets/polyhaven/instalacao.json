@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-10-29T14:30:03.627Z",
+  "resolution": "2k",
+  "total": 8,
+  "installed": 8,
+  "failed": 0,
+  "materials": [
+    {
+      "id": "road_damaged_2",
+      "maps": 6,
+      "errors": 0
+    },
+    {
+      "id": "gravel_road",
+      "maps": 6,
+      "errors": 0
+    },
+    {
+      "id": "mud_cracked_dry_03",
+      "maps": 6,
+      "errors": 0
+    },
+    {
+      "id": "dirt",
+      "maps": 6,
+      "errors": 0
+    },
+    {
+      "id": "rocky_terrain_03",
+      "maps": 6,
+      "errors": 0
+    },
+    {
+      "id": "rusty_metal_05",
+      "maps": 6,
+      "errors": 0
+    },
+    {
+      "id": "rust_coarse_01",
+      "maps": 6,
+      "errors": 0
+    },
+    {
+      "id": "corrugated_iron",
+      "maps": 6,
+      "errors": 0
+    }
+  ]
+}

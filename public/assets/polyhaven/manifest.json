@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-10-29T14:30:03.624Z",
+  "resolution": "2k",
+  "assets": {
+    "road_damaged_2": {
+      "id": "road_damaged_2",
+      "status": "installed",
+      "normalConvention": "OpenGL",
+      "category": "road",
+      "tileMeters": [2.2, 2.2],
+      "armChannels": { "r": "ao", "g": "roughness", "b": "metalness" },
+      "maps": {
+        "color": { "url": "/assets/polyhaven/road_damaged_2/road_damaged_2_diff_2k.png" },
+        "normal": { "url": "/assets/polyhaven/road_damaged_2/road_damaged_2_nor_gl_2k.png" },
+        "roughness": { "url": "/assets/polyhaven/road_damaged_2/road_damaged_2_rough_2k.png" },
+        "ao": { "url": "/assets/polyhaven/road_damaged_2/road_damaged_2_ao_2k.png" },
+        "arm": { "url": "/assets/polyhaven/road_damaged_2/road_damaged_2_arm_2k.png" }
+      }
+    },
+    "gravel_road": {
+      "id": "gravel_road",
+      "status": "installed",
+      "normalConvention": "OpenGL",
+      "category": "outdoor",
+      "tileMeters": [2, 2],
+      "armChannels": { "r": "ao", "g": "roughness", "b": "metalness" },
+      "maps": {
+        "color": { "url": "/assets/polyhaven/gravel_road/gravel_road_diff_2k.png" },
+        "normal": { "url": "/assets/polyhaven/gravel_road/gravel_road_nor_gl_2k.png" },
+        "roughness": { "url": "/assets/polyhaven/gravel_road/gravel_road_rough_2k.png" },
+        "ao": { "url": "/assets/polyhaven/gravel_road/gravel_road_ao_2k.png" },
+        "arm": { "url": "/assets/polyhaven/gravel_road/gravel_road_arm_2k.png" }
+      }
+    },
+    "mud_cracked_dry_03": {
+      "id": "mud_cracked_dry_03",
+      "status": "installed",
+      "normalConvention": "OpenGL",
+      "category": "outdoor",
+      "tileMeters": [1.5, 1.5],
+      "armChannels": { "r": "ao", "g": "roughness", "b": "metalness" },
+      "maps": {
+        "color": { "url": "/assets/polyhaven/mud_cracked_dry_03/mud_cracked_dry_03_diff_2k.png" },
+        "normal": { "url": "/assets/polyhaven/mud_cracked_dry_03/mud_cracked_dry_03_nor_gl_2k.png" },
+        "roughness": { "url": "/assets/polyhaven/mud_cracked_dry_03/mud_cracked_dry_03_rough_2k.png" },
+        "ao": { "url": "/assets/polyhaven/mud_cracked_dry_03/mud_cracked_dry_03_ao_2k.png" },
+        "arm": { "url": "/assets/polyhaven/mud_cracked_dry_03/mud_cracked_dry_03_arm_2k.png" }
+      }
+    },
+    "dirt": {
+      "id": "dirt",
+      "status": "installed",
+      "normalConvention": "OpenGL",
+      "category": "floor",
+      "tileMeters": [2, 2],
+      "armChannels": { "r": "ao", "g": "roughness", "b": "metalness" },
+      "maps": {
+        "color": { "url": "/assets/polyhaven/dirt/dirt_diff_2k.png" },
+        "normal": { "url": "/assets/polyhaven/dirt/dirt_nor_gl_2k.png" },
+        "roughness": { "url": "/assets/polyhaven/dirt/dirt_rough_2k.png" },
+        "ao": { "url": "/assets/polyhaven/dirt/dirt_ao_2k.png" },
+        "arm": { "url": "/assets/polyhaven/dirt/dirt_arm_2k.png" }
+      }
+    },
+    "rocky_terrain_03": {
+      "id": "rocky_terrain_03",
+      "status": "installed",
+      "normalConvention": "OpenGL",
+      "category": "outdoor",
+      "tileMeters": [3, 3],
+      "armChannels": { "r": "ao", "g": "roughness", "b": "metalness" },
+      "maps": {
+        "color": { "url": "/assets/polyhaven/rocky_terrain_03/rocky_terrain_03_diff_2k.png" },
+        "normal": { "url": "/assets/polyhaven/rocky_terrain_03/rocky_terrain_03_nor_gl_2k.png" },
+        "roughness": { "url": "/assets/polyhaven/rocky_terrain_03/rocky_terrain_03_rough_2k.png" },
+        "ao": { "url": "/assets/polyhaven/rocky_terrain_03/rocky_terrain_03_ao_2k.png" },
+        "arm": { "url": "/assets/polyhaven/rocky_terrain_03/rocky_terrain_03_arm_2k.png" }
+      }
+    },
+    "rusty_metal_05": {
+      "id": "rusty_metal_05",
+      "status": "installed",
+      "normalConvention": "OpenGL",
+      "category": "metal",
+      "tileMeters": [1.25, 1.25],
+      "armChannels": { "r": "ao", "g": "roughness", "b": "metalness" },
+      "maps": {
+        "color": { "url": "/assets/polyhaven/rusty_metal_05/rusty_metal_05_diff_2k.png" },
+        "normal": { "url": "/assets/polyhaven/rusty_metal_05/rusty_metal_05_nor_gl_2k.png" },
+        "roughness": { "url": "/assets/polyhaven/rusty_metal_05/rusty_metal_05_rough_2k.png" },
+        "ao": { "url": "/assets/polyhaven/rusty_metal_05/rusty_metal_05_ao_2k.png" },
+        "arm": { "url": "/assets/polyhaven/rusty_metal_05/rusty_metal_05_arm_2k.png" }
+      }
+    },
+    "rust_coarse_01": {
+      "id": "rust_coarse_01",
+      "status": "installed",
+      "normalConvention": "OpenGL",
+      "category": "metal",
+      "tileMeters": [2.2, 2.2],
+      "armChannels": { "r": "ao", "g": "roughness", "b": "metalness" },
+      "maps": {
+        "color": { "url": "/assets/polyhaven/rust_coarse_01/rust_coarse_01_diff_2k.png" },
+        "normal": { "url": "/assets/polyhaven/rust_coarse_01/rust_coarse_01_nor_gl_2k.png" },
+        "roughness": { "url": "/assets/polyhaven/rust_coarse_01/rust_coarse_01_rough_2k.png" },
+        "ao": { "url": "/assets/polyhaven/rust_coarse_01/rust_coarse_01_ao_2k.png" },
+        "arm": { "url": "/assets/polyhaven/rust_coarse_01/rust_coarse_01_arm_2k.png" }
+      }
+    },
+    "corrugated_iron": {
+      "id": "corrugated_iron",
+      "status": "installed",
+      "normalConvention": "OpenGL",
+      "category": "man made",
+      "tileMeters": [1.12, 1.12],
+      "armChannels": { "r": "ao", "g": "roughness", "b": "metalness" },
+      "maps": {
+        "color": { "url": "/assets/polyhaven/corrugated_iron/corrugated_iron_diff_2k.png" },
+        "normal": { "url": "/assets/polyhaven/corrugated_iron/corrugated_iron_nor_gl_2k.png" },
+        "roughness": { "url": "/assets/polyhaven/corrugated_iron/corrugated_iron_rough_2k.png" },
+        "ao": { "url": "/assets/polyhaven/corrugated_iron/corrugated_iron_ao_2k.png" },
+        "arm": { "url": "/assets/polyhaven/corrugated_iron/corrugated_iron_arm_2k.png" }
+      }
+    }
+  }
+}

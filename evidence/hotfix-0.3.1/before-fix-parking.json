@@ -1,0 +1,173 @@
+{
+  "mode": "driving",
+  "resumeMode": "driving",
+  "overlay": null,
+  "fuel": 3.9773077414253097,
+  "temperature": 58.54992872978991,
+  "engineOn": true,
+  "speed": 1.1664373038720663,
+  "signedSpeed": 1.1681623545205178,
+  "surface": "asfalto",
+  "camera": 0,
+  "headlights": false,
+  "arrived": false,
+  "notice": "Segure Espaço até parar o Titã. Depois pressione F para descer.",
+  "saving": false,
+  "storm": false,
+  "restored": false,
+  "region": "ashes",
+  "radioActive": false,
+  "powerMultiplier": 1,
+  "gripMultiplier": 1,
+  "loaded": false,
+  "ready": true,
+  "position": [
+    22.200000762939453,
+    2.360006093978882,
+    -720.686767578125
+  ],
+  "playerPosition": [
+    19.40009307861328,
+    1.934614896774292,
+    -702.8292846679688
+  ],
+  "speedKmh": 4.199174293939439,
+  "fps": 9.375585974123396,
+  "averageFps": 11.205584935767172,
+  "drawCalls": 51,
+  "triangles": 28970,
+  "sectors": 9,
+  "sectorKeys": [
+    "0,0",
+    "-1,0",
+    "0,-1",
+    "1,0",
+    "-1,-1",
+    "1,-1",
+    "0,-2",
+    "-1,-2",
+    "1,-2"
+  ],
+  "quaternion": [
+    0.0007122717215679586,
+    2.0497799291252505e-10,
+    2.0977389270093738e-10,
+    0.9999997615814209
+  ],
+  "wheelContacts": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "suspension": [
+    0.45829522609710693,
+    0.45829522609710693,
+    0.48234128952026367,
+    0.48234128952026367,
+    0.49139487743377686,
+    0.49139487743377686
+  ],
+  "input": {
+    "throttle": 0,
+    "steer": 0,
+    "handbrake": true
+  },
+  "footBoundary": false,
+  "expeditionVisual": {
+    "lootVisible": {
+      "depot": true,
+      "station": true
+    }
+  },
+  "worldVisual": {
+    "rain": false,
+    "plants": false,
+    "growth": 0,
+    "barrierOpen": false,
+    "plantCount": 220
+  },
+  "campaign": {
+    "stage": "shelter",
+    "seed": {
+      "received": false,
+      "integrity": 100
+    },
+    "components": {
+      "engine": 70,
+      "radiator": 35,
+      "tires": 63.991915000000716,
+      "suspension": 38,
+      "transmission": 64.99956666666665,
+      "tank": 55,
+      "filters": 54.98844999999962,
+      "frame": 70
+    },
+    "inventory": {
+      "player": {
+        "diesel": 8,
+        "water": 4,
+        "food": 3,
+        "parts": 10,
+        "scrap": 8
+      },
+      "truck": {
+        "diesel": 0,
+        "water": 0,
+        "food": 0,
+        "parts": 2,
+        "scrap": 0
+      }
+    },
+    "flags": {
+      "metSurvivor": false,
+      "renataContact": false,
+      "plannedRoute": null,
+      "chosenRoute": null,
+      "stormEncountered": false,
+      "voiceFragments": [],
+      "finalChoice": null,
+      "titanForced": false
+    },
+    "cores": {
+      "core-1": {
+        "state": "inactive",
+        "attempts": 0
+      }
+    },
+    "restoration": {
+      "ashes": false
+    },
+    "completedMissions": [],
+    "decisions": [],
+    "collected": [],
+    "rngState": 337241211,
+    "travelSeconds": 11.550000000000153,
+    "checkpoint": 0,
+    "expedition": {
+      "hydration": 99.77140000000324,
+      "satiety": 99.8856999999962,
+      "fatigue": 0.0634999999999994,
+      "deprivationSeconds": 0,
+      "visited": [],
+      "looted": [],
+      "stock": {
+        "diesel": 12,
+        "water": 10,
+        "food": 8,
+        "parts": 8
+      },
+      "transactions": 0
+    }
+  },
+  "integrity": null,
+  "chance": 1,
+  "interaction": {
+    "id": "exit",
+    "text": "Segure Espaço até parar o Titã. Depois pressione F para descer."
+  },
+  "canWork": false,
+  "parked": false
+}

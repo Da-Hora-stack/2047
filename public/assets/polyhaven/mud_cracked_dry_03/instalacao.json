@@ -1,0 +1,43 @@
+{
+  "id": "mud_cracked_dry_03",
+  "resolution": "2k",
+  "category": "outdoor",
+  "dimensions": [
+    1500,
+    1500.0001192092896
+  ],
+  "maps": {
+    "diff": {
+      "file": "mud_cracked_dry_03_diff_2k.png",
+      "size": 23096839,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/mud_cracked_dry_03/mud_cracked_dry_03_diff_2k.png"
+    },
+    "nor_gl": {
+      "file": "mud_cracked_dry_03_nor_gl_2k.png",
+      "size": 23605047,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/mud_cracked_dry_03/mud_cracked_dry_03_nor_gl_2k.png"
+    },
+    "rough": {
+      "file": "mud_cracked_dry_03_rough_2k.png",
+      "size": 9727494,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/mud_cracked_dry_03/mud_cracked_dry_03_rough_2k.png"
+    },
+    "ao": {
+      "file": "mud_cracked_dry_03_ao_2k.png",
+      "size": 7664318,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/mud_cracked_dry_03/mud_cracked_dry_03_ao_2k.png"
+    },
+    "arm": {
+      "file": "mud_cracked_dry_03_arm_2k.png",
+      "size": 17338040,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/mud_cracked_dry_03/mud_cracked_dry_03_arm_2k.png"
+    },
+    "disp": {
+      "file": "mud_cracked_dry_03_disp_2k.png",
+      "size": 6590982,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/mud_cracked_dry_03/mud_cracked_dry_03_disp_2k.png"
+    }
+  },
+  "errors": [],
+  "downloadedAt": "2026-10-29T14:28:47.135Z"
+}

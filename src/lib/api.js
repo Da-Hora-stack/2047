@@ -1,0 +1,13 @@
+import { randomUUID,createHmac,timingSafeEqual } from 'node:crypto';
+import { validSave,validSlot } from '../game/persistence/schema.js';
+export const error=(status,code)=>Response.json({error:{code,message:({400:'Dados inválidos.',404:'Partida não encontrada.',409:'A partida mudou. Recarregue antes de salvar.',500:'Não foi possível completar a operação.'})[status]}},{status,headers:{'Cache-Control':'no-store'}});
+export class InvalidInput extends Error {}
+export async function readBody(request){
+ if(!request.headers.get('content-type')?.includes('application/json'))throw new InvalidInput();
+ const reader=request.body?.getReader();if(!reader)throw new InvalidInput();let total=0;const chunks=[];
+ try{while(true){const {done,value}=await reader.read();if(done)break;total+=value.byteLength;if(total>131072){await reader.cancel();throw new InvalidInput();}chunks.push(value);}const bytes=new Uint8Array(total);let at=0;for(const v of chunks){bytes.set(v,at);at+=v.length;}const parsed=JSON.parse(new TextDecoder('utf-8',{fatal:true}).decode(bytes));if(!parsed||typeof parsed!=='object'||Array.isArray(parsed))throw new InvalidInput();return parsed;}catch{throw new InvalidInput();}
+}
+const sign=id=>createHmac('sha256',process.env.SAVE_COOKIE_SECRET).update(id).digest('hex');
+export function identity(request){const raw=request.headers.get('cookie')?.split(';').map(v=>v.trim()).find(v=>v.startsWith('playerId='))?.slice(9)||'';let [id,mac]=raw.split('.');let valid=/^[0-9a-f]{8}-[0-9a-f-]{27}$/.test(id||'');if(valid&&process.env.SAVE_COOKIE_SECRET){const expected=sign(id);valid=!!mac&&/^[a-f0-9]{64}$/.test(mac)&&timingSafeEqual(Buffer.from(mac),Buffer.from(expected));}if(!valid)id=randomUUID();const secure=process.env.NODE_ENV==='production'||new URL(request.url).protocol==='https:';const token=process.env.SAVE_COOKIE_SECRET?`${id}.${sign(id)}`:id;return {id,cookie:`playerId=${token}; Path=/; HttpOnly; SameSite=Strict; Max-Age=31536000${secure?'; Secure':''}`};}
+export function withIdentity(handler){return async(request,context)=>{const who=identity(request);let result;try{const origin=request.headers.get('origin');if(!['GET','HEAD'].includes(request.method)&&origin&&new URL(origin).host!==(request.headers.get('host')||new URL(request.url).host))return error(400,'ORIGIN');result=await handler(request,context,who.id);}catch(e){result=error(e instanceof InvalidInput?400:500,e instanceof InvalidInput?'VALIDATION':'INTERNAL');}result.headers.set('Set-Cookie',who.cookie);result.headers.set('Cache-Control','no-store');return result;};}
+export function assertSave(slot,data){if(!validSlot(slot)||!validSave(data))throw new InvalidInput();}

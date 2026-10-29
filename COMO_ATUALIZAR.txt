@@ -1,0 +1,33 @@
+2047: REDE AURORA — REFORMULAÇÃO / FASE 1 — VERSÃO 0.5.0
+
+1. Feche o jogo e a janela do terminal da versão anterior.
+2. Extraia este ZIP inteiro em uma pasta nova.
+3. Se já jogou e salvou: COPIE local.db da pasta antiga para esta pasta nova.
+   Se também houver local.db-wal e local.db-shm, copie-os junto.
+   Não apague os arquivos originais. Use o mesmo navegador e localhost:3000.
+4. Dê dois cliques em INICIAR_JOGO.bat. Aguarde o jogo abrir.
+5. Confira 0.5.0 na parte inferior do menu inicial.
+
+PARA DESCER
+Segure ESPAÇO até o Titã parar. Pressione F uma vez, ou clique no botão
+“F · Descer do caminhão”. Você pode circular perto do Titã em qualquer trecho.
+
+PARA ENTRAR
+Volte para perto do caminhão e pressione F, ou clique em “F · Entrar no Titã”.
+
+Se uma rocha ou parede impedir a saída, reposicione o caminhão e tente de novo.
+
+FASE 4
+Depois do Núcleo 1, siga o HUD para encontrar o Cofre 2. J abre missões,
+M abre o mapa dos sete Núcleos e R traz os boletins da estrada.
+
+OUTRO APARELHO
+Leia CONTINUAR_NO_CELULAR.md. O GitHub preserva código e histórico.
+Os saves locais também dependem da identidade do navegador antigo.
+
+CONDUÇÃO 0.5.0
+Novo jogo: E liga o motor; W engata D e acelera.
+S freia; parado, mantenha S para engatar R. Em ré, W freia antes de voltar a D.
+Segure Espaço até pressionar F para descer. C alterna as três câmeras.
+As configurações têm resposta da direção, distância da câmera e movimento da cabine.
+Saves antigos continuam aceitos, com o estado do motor que foi salvo.

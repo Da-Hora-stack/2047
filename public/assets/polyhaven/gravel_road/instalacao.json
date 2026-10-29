@@ -1,0 +1,43 @@
+{
+  "id": "gravel_road",
+  "resolution": "2k",
+  "category": "outdoor",
+  "dimensions": [
+    2000,
+    2000
+  ],
+  "maps": {
+    "diff": {
+      "file": "gravel_road_diff_2k.png",
+      "size": 21875180,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/gravel_road/gravel_road_diff_2k.png"
+    },
+    "nor_gl": {
+      "file": "gravel_road_nor_gl_2k.png",
+      "size": 22110021,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/gravel_road/gravel_road_nor_gl_2k.png"
+    },
+    "rough": {
+      "file": "gravel_road_rough_2k.png",
+      "size": 6556666,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/gravel_road/gravel_road_rough_2k.png"
+    },
+    "ao": {
+      "file": "gravel_road_ao_2k.png",
+      "size": 4804542,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/gravel_road/gravel_road_ao_2k.png"
+    },
+    "arm": {
+      "file": "gravel_road_arm_2k.png",
+      "size": 6541791,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/gravel_road/gravel_road_arm_2k.png"
+    },
+    "disp": {
+      "file": "gravel_road_disp_2k.png",
+      "size": 6528668,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/gravel_road/gravel_road_disp_2k.png"
+    }
+  },
+  "errors": [],
+  "downloadedAt": "2026-10-29T14:28:24.039Z"
+}

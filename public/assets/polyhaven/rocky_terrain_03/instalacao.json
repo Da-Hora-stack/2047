@@ -1,0 +1,43 @@
+{
+  "id": "rocky_terrain_03",
+  "resolution": "2k",
+  "category": "outdoor",
+  "dimensions": [
+    90000,
+    90000
+  ],
+  "maps": {
+    "diff": {
+      "file": "rocky_terrain_03_diff_2k.png",
+      "size": 22531281,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rocky_terrain_03/rocky_terrain_03_diff_2k.png"
+    },
+    "nor_gl": {
+      "file": "rocky_terrain_03_nor_gl_2k.png",
+      "size": 23417686,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rocky_terrain_03/rocky_terrain_03_nor_gl_2k.png"
+    },
+    "rough": {
+      "file": "rocky_terrain_03_rough_2k.png",
+      "size": 6765416,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rocky_terrain_03/rocky_terrain_03_rough_2k.png"
+    },
+    "ao": {
+      "file": "rocky_terrain_03_ao_2k.png",
+      "size": 5166389,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rocky_terrain_03/rocky_terrain_03_ao_2k.png"
+    },
+    "arm": {
+      "file": "rocky_terrain_03_arm_2k.png",
+      "size": 14000224,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rocky_terrain_03/rocky_terrain_03_arm_2k.png"
+    },
+    "disp": {
+      "file": "rocky_terrain_03_disp_2k.png",
+      "size": 6219201,
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rocky_terrain_03/rocky_terrain_03_disp_2k.png"
+    }
+  },
+  "errors": [],
+  "downloadedAt": "2026-10-29T14:29:16.210Z"
+}
